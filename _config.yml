@@ -221,12 +221,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-plugins:
-  - ./_plugins/jekyll-responsive-magick.rb
-
-responsive:
-  widths: [200, 400, 800]
-  quality: 80
-  format: webp
-  verbose: true
