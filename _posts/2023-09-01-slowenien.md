@@ -14,7 +14,7 @@ Der Gedanke an eine erneute Fahrradreise in Slowenien, entlang der Soca hat uns 
 
 ## Die Routenplanung
 
-{% include wide.html img='/assets/img/gpx/20240420005026-06159-map.webp' alt="Hier geht's zu Komoot" link='<https://www.komoot.com/de-de/collection/2396929/-radreise-triest-bovec-villach-2023>' %}
+{% include wide.html img='/assets/img/gpx/20240420005026-06159-map.webp' alt="Hier geht's zu Komoot" link='https://www.komoot.com/de-de/collection/2396929/-radreise-triest-bovec-villach-2023' %}
 
 ## Unser Reisetagebuch
 
