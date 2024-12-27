@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://one-shot-monkey.github.io"
 
 github:
   username: one-shot-monkey # change to your github username
@@ -189,10 +189,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:
-      path: assets/js/dist
-    values:
-      swcache: true
 
 sass:
   style: compressed
@@ -234,4 +230,3 @@ responsive:
   quality: 80
   format: webp
   verbose: true
-
