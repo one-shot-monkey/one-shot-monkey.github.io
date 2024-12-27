@@ -1,0 +1,27 @@
+{% assign img = include.img %}
+{% assign alt = include.alt %}
+{% assign link = include.link %}
+
+<style>
+    .image-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mt-3 mb-3">
+            <div class="image-container">
+                <img src="{{ site.baseurl }}{{ img }}" class="img" loading="lazy" style="border-radius: 10px;" alt="{{ alt }}">
+            </div>
+            {%- if link-%}
+            <figcaption class="text-center pt-2 pb-2"><a href="{{ link }}">{{ alt }}</a></figcaption>
+                
+            {%- endif -%}
+        </div>
+    </div>
+</div>
+

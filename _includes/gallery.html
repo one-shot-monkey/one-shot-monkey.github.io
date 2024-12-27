@@ -1,0 +1,38 @@
+{% assign album = include.album | default: 'ga1' %}
+
+{% assign num_images = 0 %}
+{% for image in site.static_files %}
+    {% if image.path contains page.gallery_path %}
+        {% if image.path contains album %}
+            {% assign num_images = num_images | plus: 1 %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% assign rows = include.rows | default: 2 %}
+{% assign cols = num_images | divided_by: rows | ceil %}
+
+<style>
+    .image-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        {% for image in site.static_files %}
+            {% if image.path contains page.gallery_path %}
+                {% if image.path contains album %}
+                    <div class="col-md-{{ 12 | divided_by: num_images }} mt-3 mb-3">
+                        <div class="image-container">
+                            <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" class="img" loading="lazy" style="border-radius: 10px;">
+                        </div>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
