@@ -2,8 +2,8 @@
 title: "Slowenien, eine Perle der Fahrradreisen"
 date: 2023-09-01 17:29:00
 categories: [Radreisen]
-tags: [Slowenien, Soca]     # TAG names should always be lowercase
-authors: [1,2]
+tags: [Slowenien, Soca] # TAG names should always be lowercase
+authors: [1, 2]
 comments: true
 gallery_path: "/assets/img/slw/"
 image:
@@ -14,7 +14,7 @@ Der Gedanke an eine erneute Fahrradreise in Slowenien, entlang der Soca hat uns 
 
 ## Die Routenplanung
 
-{% include wide.html img='/assets/img/gpx/20240420005026-06159-map.webp' alt="Hier geht's zu Komoot" link='https://www.komoot.com/de-de/collection/2396929/-radreise-triest-bovec-villach-2023' %}
+{% include wide.html img='/assets/img/gpx/20240420005026-06159-map.webp' alt="Hier geht's zu Komoot" link='<https://www.komoot.com/de-de/collection/2396929/-radreise-triest-bovec-villach-2023>' %}
 
 ## Unser Reisetagebuch
 
@@ -61,8 +61,6 @@ Heute steht das Glück wieder auf unserer Seite. Das Wetter ist schön und wir f
 {% include gallery.html album='ga07' %}
 
 Über einen gekiesten größeren Weg erreichen wir Bovec, die Ortschaft liegt mitten in den Berggipfeln und es war traumhaft. Kurz vor der Ankunft an unserer Unterkunft in der wir 2 Nächte bleiben, wird noch ein Abstecher zu einem bekannten Wasserfall, dem Boka Fall gemacht. Unsere Unterkunft ist dieses mal ein halbes Haus und liegt etwas abseits. Ein echtes Schnäppchen!
-
-{% include wide.html img='/assets/img/slw/39-Viewpoint-Bovec-2023.webp' %}
 
 {% include wide.html img='/assets/img/slw/42-Bovec-Slovenia-2023.webp' %}
 
