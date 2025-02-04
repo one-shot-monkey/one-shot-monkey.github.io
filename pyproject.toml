@@ -1,19 +1,10 @@
-[tool.poetry]
-name = "blog"
+[project]
+name = "one-shot-monkey-github-io"
 version = "0.1.0"
-description = ""
-authors = ["one-shot-monkey"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-pillow = "^10.2.0"
-click = "^8.1.7"
-pyyaml = "^6.0.1"
-typer = "^0.12.3"
-ipython = "^8.23.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=11.1.0",
+    "typer>=0.15.1",
+]

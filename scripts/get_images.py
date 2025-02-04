@@ -20,8 +20,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 DEFAULT_CONFIG = Path("_config.yml")
-DEFAULT_IN_PATH = Path("~/pic/website/Raw").expanduser()
-DEFAULT_PRJ_PATH = Path("~/Projekt/blog/").expanduser()
+DEFAULT_IN_PATH = Path("~/pic/Blog/Raw").expanduser()
+DEFAULT_PRJ_PATH = Path("~/prj/one-shot-monkey.github.io/").expanduser()
 DEFAULT_CATEGORIES_YML_PATH = DEFAULT_PRJ_PATH / "_data/categories.yml"
 
 def shorten_filename(idx: int, filename: str) -> str:
@@ -222,7 +222,7 @@ def organize_images(input_folder: Path, output_folder: Path, subfolder: Optional
         optimize_process(images_to_process, str(folder_type), width, quality)
 
 @app.command()
-def main(subfolder: str = "") -> None:
+def main(subfolder: str = "spain") -> None:
     """Main function to organize images in folders."""
     try:
         input_folder_path = DEFAULT_IN_PATH / subfolder
