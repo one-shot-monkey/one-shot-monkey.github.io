@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-lock
 order: 5
+lang: de
 ---
 
 ## Datenschutzerklärung für blog.one-shot-monkey.com

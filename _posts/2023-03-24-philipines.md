@@ -9,6 +9,7 @@ gallery_path: "/assets/img/pp/"
 image:
   path: "/assets/img/pp/5-Bike-Buso-Buso-2023.webp"
   alt: Bike-Philippinen-Buso-2023
+lang: de
 ---
 
 Inselhopping mit dem Fahrrad und die vielen Fähren verrät uns mehr, über das Land als wir gedacht hätten.

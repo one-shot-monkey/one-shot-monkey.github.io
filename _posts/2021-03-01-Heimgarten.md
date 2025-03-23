@@ -7,6 +7,7 @@ authors: [1,2]
 comments: true
 image:
   path: "/assets/img/wandern/IMG_20210328_133246.webp"
+lang: de
 ---
 
 Während der Wintermonate präsentiert sich der Heimgarten oft in einer zauberhaften Schneelandschaft, die zum Wandern, Skifahren oder Schneeschuhwandern einlädt. Die Route führt uns anfangs durch Wälder und über schneebedeckte Pfade, während man einen atemberaubenden Blick auf die umliegenden Gipfel und Seen in den Tälern genießt.

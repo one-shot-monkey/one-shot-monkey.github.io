@@ -8,6 +8,7 @@ comments: true
 gallery_path: "/assets/img/sit/"
 image:
   path: "/assets/img/sit/PXL_20230521_111822231.webp"
+lang: de
 ---
 
 Wir merken dass unsere Fahrradreiselust nach 4 Monaten zur Neige geht und hätten nicht erwartet das Süditalien im Vergleich zum Norden deutlich anstrengender für uns wird.

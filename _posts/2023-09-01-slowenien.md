@@ -8,6 +8,7 @@ comments: true
 gallery_path: "/assets/img/slw/"
 image:
   path: "/assets/img/slw/PXL_20230918_135417079.webp"
+lang: de
 ---
 
 Der Gedanke an eine erneute Fahrradreise in Slowenien, entlang der Soca hat uns seit unserer letzten Reise von Ljubljana nach Dubrovnik nicht mehr losgelassen. Nun ist es endlich soweit, dass wir uns die Bergregion mal näher ansehen können!

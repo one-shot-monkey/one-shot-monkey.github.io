@@ -1,0 +1,41 @@
+---
+layout: default
+lang: en
+---
+
+{% include lang.html %}
+{% assign posts = site.posts | where: 'lang', page.lang %}
+
+<div id="post-list" class="post-list">
+  {% for post in posts %}
+    <div class="mb-5">
+      <a href="{{ post.url | relative_url }}" class="d-block text-decoration-none text-reset">
+        {% if post.image and post.image.path %}
+          <img
+            src="{{ post.image.path | relative_url }}"
+            alt="{{ post.image.alt | default: post.title }}"
+            class="img-fluid rounded mb-3"
+            loading="lazy"
+          >
+        {% endif %}
+
+        <h2 class="h4 mb-1">{{ post.title }}</h2>
+
+        <p class="text-muted mb-2">
+          <i class="far fa-calendar-alt me-1"></i>
+          {% include datetime.html date=post.date lang=lang %}
+          {% if post.categories %}
+            <span class="ms-3">
+              <i class="far fa-folder-open me-1"></i>
+              {{ post.categories | join: ", " }}
+            </span>
+          {% endif %}
+        </p>
+
+        <p class="mb-0">
+          {% include post-description.html %}
+        </p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
