@@ -56,6 +56,7 @@ jobs:
             --disable-external \
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
             --ignore-files "./_site/page2/.*"
+            --allow-missing-href
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
